@@ -17,6 +17,10 @@ public class StudentResponse {
         this.course=course;
     }
 
+    public StudentResponse(Long id, String name, String email, Integer age, String course) {
+    }
+
+
     public Long getId() {
         return id;
     }
